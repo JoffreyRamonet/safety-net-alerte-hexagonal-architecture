@@ -1,0 +1,15 @@
+com.domain.api
+com.domain.ddd
+com.domain.dto
+com.domain.model
+com.domain.service
+com.domain.spi
+com.domain.stub
+com.domain.stub.test_impl
+com.infrastructure
+com.infrastructure.configuration
+com.infrastructure.controller
+com.infrastructure.controller.dto
+com.infrastructure.data_reader
+com.infrastructure.data_reader.data_list
+com.infrastructure.data_reader.repository
