@@ -39,6 +39,7 @@ An Application Programming Interface package to link the controller layer of the
 An Service Provider Interface package to link the repository layer of the infrastructure to the domain service.
 Models and Data Transfer Objects are managed in the domain.
 **ALL** business treatments of the application are performing here, in the service package.
+The stub package stores a fake Database and all fake repositories to mock the infrastructure repository layer. 
 
  - The test cycle.
 
@@ -46,10 +47,9 @@ The domain is completely autonomous for testing.
 In the test package they are two subPackages:
 
 `service`
-`stub`
 
 The service package store all test clases.
-The stub package stores a fake Database and all fake repositories to mock the infrastructure repository layer. 
+
 
 # Infrastructure
  - This is the environment layer of the application.
